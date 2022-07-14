@@ -1,0 +1,1 @@
+The first classes were about the introduction of Unix & Shell and the proccess of how to use the commands on the terminal on Linux.
