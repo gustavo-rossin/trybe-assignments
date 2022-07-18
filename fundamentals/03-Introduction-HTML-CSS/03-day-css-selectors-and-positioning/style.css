@@ -39,3 +39,10 @@ p {
     text-align: center;
     text-decoration: underline;
   }
+
+  .paragraph {
+    background-color: #119252;
+    width: 300px;
+  height: auto;
+  overflow-y: auto;
+  }
