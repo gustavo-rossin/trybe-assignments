@@ -1,9 +1,7 @@
-let age = 20;
-age = 30;
-let name = "Hulk";
-const dedo = "indicador";
-// dedo = "meio";
+const myName = "Gustavo";
+const birthCity = "Goiânia";
+let birthYear = 1991;
 
-console.log(age);
-console.log(name);
-console.log(dedo)
+console.log(myName);
+console.log(birthCity);
+console.log(birthYear);
