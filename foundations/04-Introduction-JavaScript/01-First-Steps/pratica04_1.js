@@ -128,19 +128,47 @@ const c = 23;
 //     console.log(messageGrade)
 // }
 
-// 8
+// 8 && 9
 
-const numberOne = 1;
-const numberTwo = 21;
-const numberThree = 3;
+// const numberOne = 1;
+// const numberTwo = 21;
+// const numberThree = 3;
 
-messageExercise = '';
+// messageExercise = '';
 
-if (numberOne%2 === 0 || numberTwo%2 === 0 || numberThree%2 === 0) {
-    messageExercise = 'O número é par'
-    console.log(messageExercise)
-}
-else {
-    messageExercise = 'Só tem número ímpar'
-    console.log(messageExercise)
-}
+// if (numberOne%2 === 0 || numberTwo%2 === 0 || numberThree%2 === 0) {
+//     messageExercise = 'O número é par'
+//     console.log(messageExercise)
+// }
+// else {
+//     messageExercise = 'Só tem número ímpar'
+//     console.log(messageExercise)
+// }
+
+// 10
+
+// const costPrice = 20;
+// const sellPrice = 29;
+// const taxes = 1.2;
+// const totalCost = costPrice * taxes;
+// const totalProfit = sellPrice - totalCost;
+
+// let salesAmount = 1000;
+// messageSales = "";
+
+// if (costPrice < 0 && sellPrice < 0) {
+//     messageSales = "ERRO, VALORES INPUTADOS ERRADOS";
+//     console.log(messageSales);
+// }
+
+// else if (totalProfit * salesAmount) {
+//     messageSales = "O lucro total foi de: R$"
+//     console.log(messageSales, totalProfit*salesAmount)
+// }
+
+
+
+
+
+
+
