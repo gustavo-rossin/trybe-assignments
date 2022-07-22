@@ -154,34 +154,53 @@
 
 // exemplo locadora
 
-let faixaEtaria = 'adulto';
+// let faixaEtaria = 'adulto';
 
-switch (faixaEtaria) {
-    case 'adolescente':
+// switch (faixaEtaria) {
+//     case 'adolescente':
 
-        console.log("filmes até 16 anos")
+//         console.log("filmes até 16 anos")
 
-        break;
+//         break;
 
-    case 'adulto':
+//     case 'adulto':
         
-    case 'idoso':
+//     case 'idoso':
 
-        console.log("qualquer filme disponível")
+//         console.log("qualquer filme disponível")
     
-        break;
+//         break;
 
 
 
-    case 'crianca':
+//     case 'crianca':
 
-        console.log("filmes até 10 anos")
+//         console.log("filmes até 10 anos")
 
-        break;
+//         break;
         
-    default:
+//     default:
 
-    console.log('sem identidade só pode assitir filmes livres')
+//     console.log('sem identidade só pode assitir filmes livres')
+
+// }
+
+// EXERCICIO CONCURSO
+
+pessoaCandidata = 'aprovada';
+
+switch (pessoaCandidata) {
+
+    case pessoaCandidata = 'aprovada':
+        console.log('Parabéns!! Você será chamado para ser contratado');
+        break
+
+    case 'lista':
+        console.log('vc está na lista, aguarde!');
+        break
+    
+    case 'reprovado':
+        console.log('Vc reprovou! Estude mais!!');
+        break
 
 }
-
