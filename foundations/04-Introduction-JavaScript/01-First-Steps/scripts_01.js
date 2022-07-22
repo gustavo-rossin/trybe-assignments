@@ -86,16 +86,68 @@
 
 //EXERCICIO IF E ELSE
 
-const grade = 60;
+// const grade = 60;
 
-if (grade >= 80) {
-    console.log("Aprovado, parabéns!");
-}
+// if (grade >= 80) {
+//     console.log("Aprovado, parabéns!");
+// }
 
-else if (grade >= 60 && grade < 80) {
-    console.log("Você está na nossa lista de espera");
+// else if (grade >= 60 && grade < 80) {
+//     console.log("Você está na nossa lista de espera");
+// }
+
+// else {
+//     console.log("Você foi reprovado");
+// }
+
+
+//OPERADORES LÓGICOS
+
+// const currentHour = 2;
+
+// let message = "";
+
+// if(currentHour >= 22) {
+//     message = "Não deveríamos comer nada, é hora de dormir"
+//     console.log(message)
+// }
+
+// else if (currentHour >= 18 && currentHour < 22) {
+//     message = "Rango da noite, vamos jantar :D"
+//     console.log(message)
+// }
+
+// else if (currentHour >= 14 && currentHour < 18) {
+//     message = "Vamos fazer um bolo pro café da tarde?"
+//     console.log(message)
+// }
+
+// else if (currentHour >= 11 && currentHour < 14) {
+//     message = "Hora do almoço!!!"
+//     console.log(message)
+// }
+
+// else if (currentHour >= 4 && currentHour < 11) {
+//     message = "Hmmm, cheiro de café recém passado"
+//     console.log(message)
+// }
+
+// else {
+//     message = "Sleep time"
+//     console.log(message)
+// }
+
+
+let weekDay = "Sabado";
+let msgWeek = "";
+
+if(weekDay = "segunda-feira" ||  "terca-feira" || "quarta-feira" || "quinta-feira" || "sexta-feira") {
+    msgWeek = "Oba, mais um dia de aprendizado na Trybe >:D";
+    console.log(msgWeek);
 }
 
 else {
-    console.log("Você foi reprovado");
+    msgWeek = "FINALMENTE, descanso merecido UwU";
+    console.log(msgWeek);
 }
+
