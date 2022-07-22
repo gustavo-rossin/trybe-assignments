@@ -138,16 +138,50 @@
 // }
 
 
-let weekDay = "Sabado";
-let msgWeek = "";
+// let semana = 'segunda';
+// let msgWeek = "";
 
-if(weekDay = "segunda-feira" ||  "terca-feira" || "quarta-feira" || "quinta-feira" || "sexta-feira") {
-    msgWeek = "Oba, mais um dia de aprendizado na Trybe >:D";
-    console.log(msgWeek);
-}
+// if(semana === 'segunda' || semana === 'terca' || semana === 'quarta' || semana === 'quinta' || semana === 'sexta') {
+//     msgWeek = "Oba, mais um dia de aprendizado na Trybe >:D";
+//     console.log(msgWeek);
+// }
+// else {
+//     msgWeek = "DESCANSOOOOO";
+//     console.log(msgWeek)
+// }
 
-else {
-    msgWeek = "FINALMENTE, descanso merecido UwU";
-    console.log(msgWeek);
+// SWITCH / CASE
+
+// exemplo locadora
+
+let faixaEtaria = 'adulto';
+
+switch (faixaEtaria) {
+    case 'adolescente':
+
+        console.log("filmes até 16 anos")
+
+        break;
+
+    case 'adulto':
+        
+    case 'idoso':
+
+        console.log("qualquer filme disponível")
+    
+        break;
+
+
+
+    case 'crianca':
+
+        console.log("filmes até 10 anos")
+
+        break;
+        
+    default:
+
+    console.log('sem identidade só pode assitir filmes livres')
+
 }
 
