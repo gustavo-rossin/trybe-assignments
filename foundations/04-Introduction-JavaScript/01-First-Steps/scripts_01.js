@@ -58,11 +58,44 @@
 
 // tipos de aritmetica
 
-let base = 5;
-let height = 8;
-const area = base*height;
-const perimeter = base*2 + height*2
+// let base = 5;
+// let height = 8;
+// const area = base*height;
+// const perimeter = base*2 + height*2
 
 
-console.log(area);
-console.log(perimeter);
+// console.log(area);
+// console.log(perimeter);
+
+// IF e ELSE
+
+// let trybe = 14;
+
+// if(trybe >= 14 && trybe < 14.40) {
+//     console.log("esquenta");
+// }
+// else if(trybe >= 16.30 && trybe < 17.50) {
+//     console.log("Aula ao vivo");
+// }
+// else if (trybe >= 19.40 && trybe < 20) {
+//     console.log("Fechamento");
+// }
+// else {
+//     console.log("fora dos momentos síncronos");
+// }
+
+//EXERCICIO IF E ELSE
+
+const grade = 60;
+
+if (grade >= 80) {
+    console.log("Aprovado, parabéns!");
+}
+
+else if (grade >= 60 && grade < 80) {
+    console.log("Você está na nossa lista de espera");
+}
+
+else {
+    console.log("Você foi reprovado");
+}
