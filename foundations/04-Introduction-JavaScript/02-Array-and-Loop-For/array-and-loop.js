@@ -13,7 +13,7 @@
 
 //2ª parte da aula
 
-// for (valor-inicial; condição-de-parada; incremento) {}
+// for (valor-inicial; condição-de-parada; incremento) {fórmula}
 let myArray = [34, 55, 27, 12, 97, 58]
 // for (let index = 0; index <= myArray.length; index += 1) {
 //     console.log(myArray[index]);

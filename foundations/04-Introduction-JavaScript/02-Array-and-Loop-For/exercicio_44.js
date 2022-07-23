@@ -3,7 +3,7 @@
 let soma = 0;
 
 for (let index = 1; index <= 51; index += 1) {
-    soma = soma + index;
+    soma += index;
 }
 console.log(soma)
 
