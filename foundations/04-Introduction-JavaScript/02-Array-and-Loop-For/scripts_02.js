@@ -23,23 +23,64 @@
 //     console.log(pizzas[index])
 // }
 
-//Exemplo padaria
-let access = true;
-const paes = 10;
-let sacola = "";
-if (access === true) {
+// //Exemplo padaria
+// let access = true;
+// const paes = 10;
+// let sacola = "";
+// if (access === true) {
 
-    for (let index = 1; index <= paes; index += 1) {
-        sacola = index;
-        console.log('Quantidade de pães:', sacola)
-    }
+//     for (let index = 1; index <= paes; index += 1) {
+//         sacola = index;
+//         console.log('Quantidade de pães:', sacola)
+//     }
 
-}
+// }
 
-else {
-    console.log('Erro! Acesso negado')
-}
+// else {
+//     console.log('Erro! Acesso negado')
+// }
 
-let testee = 22;
+// let testee = 22;
 
-console.log(testee.length)
+// console.log(testee.length)
+
+//EXEMPLOS DE ADIÇAO E REMOÇAO DE ELEMENTO DENTRO DE ARRAY
+let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
+
+//.push - adiciona no ultimo elemento
+tasksList.push('Deitar');
+console.log("PUSH = ", tasksList);
+
+//.unshift - adiciona no primeiro elemento
+tasksList.unshift('Comer');
+console.log("UNSHIFT = ", tasksList);
+
+//.pop - retira o último elemento
+tasksList.pop();
+console.log('POP = ', tasksList);
+//.shift - retira o primeiro elemento
+tasksList.shift();
+console.log("SHIFT = ", tasksList);
+
+//.indexOf - posição do elemento dentro do array
+console.log(tasksList.indexOf('Reunião'))
+
+//EX 1
+let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+let menuServices = menu.indexOf('Serviços');
+
+console.log(menuServices);
+
+//EX 2
+let menus = ['Home', 'Serviços', 'Portfólio', 'Links'];
+let indexOfPortfolio = menus.indexOf('Portfólio');
+
+console.log(indexOfPortfolio);
+
+//EX 3
+
+
+let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+menu.push("Contato");
+
+console.log(menu);
