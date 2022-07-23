@@ -24,6 +24,7 @@
 // // }
 
 // // //Exemplo padaria
+ 
 // // let access = true;
 // // const paes = 10;
 // // let sacola = "";
@@ -109,8 +110,42 @@
 
 // EXERCICIO lista de compras
 
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+// let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 
-for (count = 0; count < groceryList.length; count += 1) {
-    console.log("Lista de compras:", groceryList[count])
-}
+// for (count = 0; count < groceryList.length; count += 1) {
+//     console.log("Lista de compras:", groceryList[count])
+// }
+
+
+// FOR/OF
+
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+// for (let nomes of names) {
+//     console.log(nomes)
+// }
+
+// WHILE
+
+
+// let counter = 0;
+
+// while(counter !== 5) {
+//   counter += 1; // counter = counter + 1
+//   console.log(counter)
+// }
+
+//EXERCICIOS FIXAÇÃO
+
+// const jogos = 'Warcraft'
+
+// console.log(jogos[jogos.length-1]) // fazer a palavra ir de trás para frente.
+
+const jogos = ['Doom', 'Skyrim', 'Final Fantasy'];
+jogos[0] = 'Warcraft III';
+console.log(jogos)
+
+for(let index = 0; index < 10; index+=1 ){
+    console.log(index);
+  }
+  
