@@ -52,17 +52,31 @@ let array = ['java', 'javascript', 'python', 'html', 'css'];
 
 // A MENOR PALAVRA
 
-let menorPalavra = array[0].length;
-let nomeMenor;
+// let menorPalavra = array[0].length;
+// let nomeMenor;
 
-for (index = 0; index < array.length; index += 1) {
+// for (index = 0; index < array.length; index += 1) {
 
-    if(array[index].length < menorPalavra) {
-        menorPalavra = array[index].length
-        nomeMenor = array[index]
+//     if(array[index].length < menorPalavra) {
+//         menorPalavra = array[index].length
+//         nomeMenor = array[index]
         
 
+//     }
+
+// }
+// console.log(nomeMenor)
+
+// 4 - Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 2 e 50.
+
+let numbers = 50;
+let count = 0;
+
+for (let index = 2; index <= numbers; index += 1) {
+
+    if(index % 2 === 1) {
+        count += 1
+        console.log(count)
     }
 
 }
-console.log(nomeMenor)
