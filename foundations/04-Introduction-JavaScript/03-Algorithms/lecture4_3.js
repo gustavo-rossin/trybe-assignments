@@ -57,14 +57,18 @@
 // }
 // console.log(newWord)
 
-count = 0;
+// Quantas vezes o 5 divide o numero 100
 
-for (let index = 1; index <= 100; index += 1) {
+// count = 0;
 
-    if (index%5 === 0) {
-        count += 1
-        console.log(count)
-    }
+// for (let index = 1; index <= 100; index += 1) {
+
+//     if (index%5 === 0) {
+//         count += 1
+//         console.log(count)
+//     }
 
 
-}
+// }
+
+
