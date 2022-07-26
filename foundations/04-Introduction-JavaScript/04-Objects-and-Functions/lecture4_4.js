@@ -157,8 +157,9 @@
 
 // greetingsMessage('Gustavo')
 
-function sum(a, b) {
-    return a + b;
-  }
-  console.log(sum(1, 2));
-  
+// function sum(a, b) {
+//     return a + b; // erro de sintaxe sem o return
+//   }
+//   console.log(sum(1, 2));
+
+
