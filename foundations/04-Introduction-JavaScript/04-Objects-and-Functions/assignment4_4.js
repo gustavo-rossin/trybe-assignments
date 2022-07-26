@@ -50,7 +50,7 @@
 
 // PART 2 - FUNCTIONS
 
-// EX 1
+// EX 1 Crie uma função que receba uma string e retorne true se for um palíndromo, ou false, se não for.
 
 // function isPalindrome(str) {
 //     if(str === str.split('').reverse().join('')) {
@@ -68,18 +68,61 @@
 
 // isPalindrome("ovo")
 
-// EX 2
+// EX 2 Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+// Array de teste: [2, 3, 6, 7, 10, 1];.
+// Valor esperado no retorno da função: 4.
+
+
 // let arrayTeste = [2, 3, 6, 7, 10, 1];
 // console.log(arrayTeste.indexOf(10))
 
 function arrayTeste(array) {
   let inteiro = 0;
+
+  
   for (let index = 0; index < array.length; index += 1) {
     if (array[index] > inteiro) {
-    (inteiro = array[index]);
-    return console.log(inteiro)
+      inteiro = array[index];
+    
     }
   }
-return console.log(inteiro);
+
+ return inteiro 
 }
 console.log(arrayTeste([2, 3, 6, 7, 10, 1]));
+
+// EX 3 Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+// Array de teste: [2, 4, 6, 7, 10, 0, -3];.
+// Valor esperado no retorno da função: 6.
+
+function menorValor(menor) {
+  pequeno = menor[0]
+  
+  for (let i = 0; i < menor.length; i += 1) {
+
+    if(menor[i] < pequeno) {
+      pequeno = menor[i]
+    }
+  }
+  return pequeno
+  }
+
+console.log(menorValor([2, 4, 6, 7, 10, 0, -3]))
+
+// EX 4 - Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+// Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];.
+// Valor esperado no retorno da função: Fernanda.
+
+
+function moreChar(char) {
+  let unit = char[0];
+  for (let count = 0; count < char.length; count += 1) {
+
+    if(char[count].length > unit.length) {
+      unit = char[count]
+    }
+
+  }
+return unit
+}
+console.log(moreChar(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']))
