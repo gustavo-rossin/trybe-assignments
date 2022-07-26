@@ -82,7 +82,7 @@ function arrayTeste(array) {
   
   for (let index = 0; index < array.length; index += 1) {
     if (array[index] > inteiro) {
-      inteiro = array[index];
+      inteiro = index;
     
     }
   }
@@ -101,7 +101,7 @@ function menorValor(menor) {
   for (let i = 0; i < menor.length; i += 1) {
 
     if(menor[i] < pequeno) {
-      pequeno = menor[i]
+      pequeno = i
     }
   }
   return pequeno
@@ -126,3 +126,38 @@ function moreChar(char) {
 return unit
 }
 console.log(moreChar(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']))
+
+
+
+// EX 5 - Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+// Array de teste: [2, 3, 2, 5, 8, 2, 3];.
+// Valor esperado no retorno da função: 2.
+
+function numeroRepetido(numero) {
+let contagemRepetido = 0;
+let contagemNumero = 0;
+let indexNumero = 0;
+
+for (let index in numero) {
+  let verificaNumero = numero[index];
+  for (let index2 in numero) {
+    if (verificaNumero === numero[index2]) {
+      contagemNumero += 1;
+    }
+  }
+
+  if (contagemNumero > contagemRepetido) {
+    contagemRepetido = contagemNumero;
+    indexNumero = index
+  }
+  contagemNumero = 0
+}
+
+return numero[indexNumero]
+
+}
+console.log(numeroRepetido([2, 3, 2, 5, 8, 2, 3]))
+
+
+
+
