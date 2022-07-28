@@ -42,10 +42,10 @@ document.getElementById("header-container").style.color = "white";
 document.getElementById("header-container").style.backgroundColor = "green";
 document.getElementsByClassName("emergency-tasks")[0].style.backgroundColor = "orange";
 
-// document.querySelectorAll(".emergency-tasks h3")[0].style.backgroundColor = "purple"
-// document.querySelectorAll(".emergency-tasks h3")[0].style.color = "white"
-// document.querySelectorAll(".emergency-tasks h3")[1].style.backgroundColor = "purple"
-// document.querySelectorAll(".emergency-tasks h3")[1].style.color = "white"
+document.querySelectorAll(".emergency-tasks h3")[0].style.backgroundColor = "purple"
+document.querySelectorAll(".emergency-tasks h3")[0].style.color = "white"
+document.querySelectorAll(".emergency-tasks h3")[1].style.backgroundColor = "purple"
+document.querySelectorAll(".emergency-tasks h3")[1].style.color = "white"
 document.getElementsByClassName("no-emergency-tasks")[0].style.backgroundColor = "yellow";
 document.querySelectorAll(".no-emergency-tasks h3")[0].style.backgroundColor = "black"
 document.querySelectorAll(".no-emergency-tasks h3")[0].style.color = "white"
@@ -54,12 +54,12 @@ document.querySelectorAll(".no-emergency-tasks h3")[1].style.color = "white"
 document.getElementById("footer-container").style.backgroundColor = "black";
 
 
-emergencyTasksH3 = document.querySelectorAll(".emergency-tasks h3");
-for (let i in emergencyTasksH3) {
-    emergencyTasksH3[i].style.backgroundColor = "purple"
-    emergencyTasksH3[i].style.colorolor = "blue"
+// emergencyTasksH3 = document.querySelectorAll(".emergency-tasks h3");
+// for (let i in emergencyTasksH3) {
+//     emergencyTasksH3[i].style.backgroundColor = "purple"
+//     emergencyTasksH3[i].style.colorolor = "blue"
 
-}
+// }
 
 
 
